@@ -7,13 +7,14 @@ def find_path_to_folder(folder):
 
 
 name_of_window = 'NIGHT CROWS'
+
 disk_with_tesseract = 'C'
 
 path_to_tesseract = f"{find_path_to_folder('tesseract')}\\tesseract.exe"
 
-path_to_screenshots = f"{find_path_to_folder('NightCrowsBot')}\\Images\\screenshots\\"
-path_to_templates = f"{find_path_to_folder('NightCrowsBot')}\\Images\\templates\\"
-path_to_json = f"{find_path_to_folder('NightCrowsBot')}\\Jsons\\"
+path_to_screenshots = "Images\\screenshots\\"
+path_to_templates = "Images\\templates\\"
+path_to_json = "Jsons\\"
 
 limit_for_calculating_best_price = 200000
 purchase_limit = 50000

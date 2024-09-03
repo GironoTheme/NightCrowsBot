@@ -8,12 +8,9 @@ windows = Windows()
 
 def launch(hwnd):
     get_gifts.get()
-
     get_rewards.get()
-
-    dungeon_farming.farming()
-
     buy.buy()
+    dungeon_farming.farming()
 
 
 windows.switch_windows(launch)
