@@ -31,6 +31,7 @@ class NavigationInDungeons(Mouse, Keyboard):
             self.move_and_click(1065, 675)
 
             self._auto_farming()
+            self.move_and_click(1333, 550)
             self._check_time()
 
     def _auto_farming(self):
